@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="RoleExternal">
+      <implementation-class>nl.amnesty.webservice.role.RoleExternal</implementation-class>
+    </service>
+    <service name="RoleCRUD">
+      <implementation-class>nl.amnesty.webservice.role.RoleCRUD</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
